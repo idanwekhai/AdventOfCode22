@@ -24,5 +24,5 @@ def find_top_three_calories(numbers):
   return sum(sorted(cal_counts, reverse=True)[:3])
   
   
-print(find_max_calories(numbers))
-print(find_top_three_calories(numbers))
+print("1", find_max_calories(numbers))
+print("2", find_top_three_calories(numbers))
