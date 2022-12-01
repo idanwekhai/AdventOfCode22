@@ -4,3 +4,4 @@ replit.nix
 pyproject.toml
 .breakpoints
 .replit
+venv/
