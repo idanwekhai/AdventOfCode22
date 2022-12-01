@@ -1,4 +1,4 @@
-with open('Day1/input.txt') as f:
+with open('input.txt') as f:
     numbers = [line.strip('\n') for line in f]
 
 def find_max_calories(numbers):
