@@ -6,7 +6,7 @@ fn main() {
     let mut cal_counts = Vec::new();
     let mut count  = 0;
     // File hosts must exist in current path before this produces output
-    if let Ok(lines) = read_lines("src/input.txt") {
+    if let Ok(lines) = read_lines("input.txt") {
         // Consumes the iterator, returns an (Optional) String
         for line in lines {
             if let Ok(num) = line {
